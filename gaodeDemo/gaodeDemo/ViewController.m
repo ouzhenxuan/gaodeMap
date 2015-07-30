@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "mapViewController.h"
+#import "testViewController.h"
 
 @interface ViewController ()
 
@@ -25,12 +26,26 @@
     btn.frame = CGRectMake(100, 100, 20, 20);
     [btn addTarget:self action:@selector(startLocation) forControlEvents:UIControlEventTouchDown];
     
+    
+    UIButton * btn1 =  [UIButton buttonWithType:UIButtonTypeContactAdd];
+    [self.view addSubview:btn1];
+    btn1.frame = CGRectMake(100, 200, 20, 20);
+    [btn1 addTarget:self action:@selector(startLocationAgain) forControlEvents:UIControlEventTouchDown];
+    
+    
+
 }
 
 - (void)startLocation{
     mapViewController * mapVc = [[mapViewController alloc] init];
     [self.navigationController pushViewController:mapVc animated:YES];
 }
+
+- (void)startLocationAgain{
+    testViewController * mapVc = [[testViewController alloc] init];
+    [self.navigationController pushViewController:mapVc animated:YES];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

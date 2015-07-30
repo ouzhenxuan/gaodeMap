@@ -7,16 +7,14 @@
 //
 
 #import "mapViewController.h"
-#import <MAMapKit/MAMapKit.h>
-#import <AMapSearchKit/AMapSearchAPI.h>
+
 
 #import "ReGeocodeAnnotation.h"
 #import "MANaviAnnotationView.h"
 
 @interface mapViewController ()<MAMapViewDelegate,AMapSearchDelegate,AMapSearchDelegate>
 
-@property (nonatomic, strong) MAMapView *mapView;
-@property (nonatomic, strong) AMapSearchAPI *search;
+
 
 @property (nonatomic, strong) CLLocationManager *locationManager;
 @end

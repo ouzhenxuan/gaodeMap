@@ -46,6 +46,7 @@
 		71B0C6121B68C57900CF7A14 /* POIAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B0C6011B68C57900CF7A14 /* POIAnnotation.m */; };
 		71B0C6131B68C57900CF7A14 /* ReGeocodeAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B0C6031B68C57900CF7A14 /* ReGeocodeAnnotation.m */; };
 		71B0C6171B68C5BA00CF7A14 /* CommonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B0C6161B68C5BA00CF7A14 /* CommonUtility.m */; };
+		71BA1DEC1B69BAE800C3AA87 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BA1DEB1B69BAE800C3AA87 /* testViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +123,8 @@
 		71B0C6031B68C57900CF7A14 /* ReGeocodeAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReGeocodeAnnotation.m; sourceTree = "<group>"; };
 		71B0C6151B68C5BA00CF7A14 /* CommonUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtility.h; sourceTree = "<group>"; };
 		71B0C6161B68C5BA00CF7A14 /* CommonUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtility.m; sourceTree = "<group>"; };
+		71BA1DEA1B69BAE800C3AA87 /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		71BA1DEB1B69BAE800C3AA87 /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +248,8 @@
 				71B0C59E1B68A6A700CF7A14 /* ViewController.m */,
 				71B0C5BD1B68AA5200CF7A14 /* mapViewController.h */,
 				71B0C5BE1B68AA5200CF7A14 /* mapViewController.m */,
+				71BA1DEA1B69BAE800C3AA87 /* testViewController.h */,
+				71BA1DEB1B69BAE800C3AA87 /* testViewController.m */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -411,6 +416,7 @@
 				71B0C6081B68C57900CF7A14 /* CustomCalloutView.m in Sources */,
 				71B0C6051B68C57900CF7A14 /* AnimatedAnnotationView.m in Sources */,
 				71B0C6111B68C57900CF7A14 /* MANaviRoute.m in Sources */,
+				71BA1DEC1B69BAE800C3AA87 /* testViewController.m in Sources */,
 				71B0C6061B68C57900CF7A14 /* BusStopAnnotation.m in Sources */,
 				71B0C5991B68A6A700CF7A14 /* main.m in Sources */,
 				71B0C60C1B68C57900CF7A14 /* LineDashPolyline.m in Sources */,
