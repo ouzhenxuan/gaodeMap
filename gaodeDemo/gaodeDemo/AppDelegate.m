@@ -18,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 #warning 这里要改成你自己的appkey哦!
-    [MAMapServices sharedServices].apiKey = @"这里要改成你自己的appkey哦";
+    [MAMapServices sharedServices].apiKey = @"5aed7f0e8121d1d985e3344f98ca5955";
     
     
     ViewController * vc = [[ViewController alloc] init];
