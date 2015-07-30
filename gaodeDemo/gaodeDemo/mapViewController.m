@@ -28,14 +28,14 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"location";
-    self.navigationItem.rightBarButtonItems = @[[[UIBarButtonItem alloc] initWithTitle:@"xixi"
+    self.navigationItem.rightBarButtonItems = @[[[UIBarButtonItem alloc] initWithTitle:@"标注"
                                                                              style:UIBarButtonItemStyleDone
                                                                             target:self
                                                                                action:@selector(hehe)],
-                                                [[UIBarButtonItem alloc] initWithTitle:@"haha"
-                                                                                                                                        style:UIBarButtonItemStyleDone
-                                                                                                                                       target:self
-                                                                                                                                       action:@selector(xixi)]];
+                                                [[UIBarButtonItem alloc] initWithTitle:@"跟随"
+                                                                                 style:UIBarButtonItemStyleDone
+                                                                                target:self
+                                                                                action:@selector(xixi)]];
     [self initMapView];
     [self initSearch];
     

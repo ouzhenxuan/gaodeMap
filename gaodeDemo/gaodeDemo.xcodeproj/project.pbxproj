@@ -624,6 +624,7 @@
 				71B0C5B81B68A6A700CF7A14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71B0C5B91B68A6A700CF7A14 /* Build configuration list for PBXNativeTarget "gaodeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -632,6 +633,7 @@
 				71B0C5BB1B68A6A700CF7A14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

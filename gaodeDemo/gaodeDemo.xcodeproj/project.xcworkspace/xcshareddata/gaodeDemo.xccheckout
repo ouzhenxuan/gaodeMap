@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>54050943-CAB9-46BC-8B43-C7298856FEAE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>gaodeDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E758E7A1B0B2F78BCBA57E43B46BA9FC1DA0F67E</key>
+		<string>https://github.com/ouzhenxuan/gaodeMap.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>gaodeDemo/gaodeDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E758E7A1B0B2F78BCBA57E43B46BA9FC1DA0F67E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ouzhenxuan/gaodeMap.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E758E7A1B0B2F78BCBA57E43B46BA9FC1DA0F67E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E758E7A1B0B2F78BCBA57E43B46BA9FC1DA0F67E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>gaodeMap</string>
+		</dict>
+	</array>
+</dict>
+</plist>
